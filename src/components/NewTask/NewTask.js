@@ -22,6 +22,8 @@ const NewTask = (props) => {
         }
       );
 
+      
+
 
       if (!response.ok) {
         throw new Error('Request failed!');
