@@ -11,8 +11,6 @@ const NewTask = (props) => {
     setIsLoading(true);
     setError(null);
     try {
-
-      
       const response = await fetch(
         'https://custom-hooks-448e5-default-rtdb.firebaseio.com//tasks.json',
         {
