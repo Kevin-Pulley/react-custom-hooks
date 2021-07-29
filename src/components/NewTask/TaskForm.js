@@ -15,8 +15,6 @@ const TaskForm = (props) => {
     }
   };
 
-  
-
   return (
     <form className={classes.form} onSubmit={submitHandler}>
       <input type='text' ref={taskInputRef} />
